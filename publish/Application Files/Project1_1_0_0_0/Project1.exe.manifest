@@ -1,0 +1,55 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<asmv1:assembly manifestVersion="1.0" xsi:schemaLocation="urn:schemas-microsoft-com:asm.v1 assembly.adaptive.xsd" xmlns:asmv3="urn:schemas-microsoft-com:asm.v3" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns="urn:schemas-microsoft-com:asm.v2" xmlns:asmv1="urn:schemas-microsoft-com:asm.v1" xmlns:asmv2="urn:schemas-microsoft-com:asm.v2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:co.v1="urn:schemas-microsoft-com:clickonce.v1">
+  <asmv1:assemblyIdentity version="1.0.0.0" name="Project1.exe" publicKeyToken="21510a45d4bd9b17" language="neutral" processorArchitecture="x86" type="win32" />
+  <application />
+  <entryPoint>
+    <assemblyIdentity name="Project1" version="1.0.4481.34767" language="neutral" processorArchitecture="x86" />
+    <commandLine file="Project1.exe" parameters="" />
+  </entryPoint>
+  <trustInfo>
+    <security>
+      <applicationRequestMinimum>
+        <PermissionSet Unrestricted="true" ID="Custom" SameSite="site" />
+        <defaultAssemblyRequest permissionSetReference="Custom" />
+      </applicationRequestMinimum>
+      <requestedPrivileges xmlns="urn:schemas-microsoft-com:asm.v3">
+        <!-- UAC 清单选项
+            如果希望更改 Windows 用户帐户控制级别，请用以下节点之一替换 
+            requestedExecutionLevel 节点。
+
+        <requestedExecutionLevel  level="asInvoker" uiAccess="false" />
+        <requestedExecutionLevel  level="requireAdministrator" uiAccess="false" />
+        <requestedExecutionLevel  level="highestAvailable" uiAccess="false" />
+
+            如果您希望利用文件和注册表虚拟化提供
+            向后兼容性，请删除 requestedExecutionLevel 节点。
+        -->
+        <requestedExecutionLevel level="asInvoker" uiAccess="false" />
+      </requestedPrivileges>
+    </security>
+  </trustInfo>
+  <dependency>
+    <dependentOS>
+      <osVersionInfo>
+        <os majorVersion="4" minorVersion="10" buildNumber="0" servicePackMajor="0" />
+      </osVersionInfo>
+    </dependentOS>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="preRequisite" allowDelayedBinding="true">
+      <assemblyIdentity name="Microsoft.Windows.CommonLanguageRuntime" version="2.0.50727.0" />
+    </dependentAssembly>
+  </dependency>
+  <dependency>
+    <dependentAssembly dependencyType="install" allowDelayedBinding="true" codebase="Project1.exe" size="60416">
+      <assemblyIdentity name="Project1" version="1.0.4481.34767" language="neutral" processorArchitecture="x86" />
+      <hash>
+        <dsig:Transforms>
+          <dsig:Transform Algorithm="urn:schemas-microsoft-com:HashTransforms.Identity" />
+        </dsig:Transforms>
+        <dsig:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" />
+        <dsig:DigestValue>0WE8SmI9jGHeZs9+Y+2GeH4ikR0=</dsig:DigestValue>
+      </hash>
+    </dependentAssembly>
+  </dependency>
+<publisherIdentity name="CN=Zonda-Dell\Daniel" issuerKeyHash="21d9e09549e6572c1d68a310afcf8c68de0233e3" /><Signature Id="StrongNameSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>75yapqBGAu89SA0UaoN6YeJhh34=</DigestValue></Reference></SignedInfo><SignatureValue>WC9QZMFvVnaCqVF4DlbklHCbAReolPTezGq1qUQn95+EWgOjXNE/rIhu8o7x1caVEJASyv6cbU1yI1ejKwNdKomSjau6j7sqmf3HCjxqDX7kqJA2juvgk19aB7W3WPYoaO93GntYD+4lRIdbllzl7SDCwQWvwoA95UjwPKHNXCA=</SignatureValue><KeyInfo Id="StrongNameKeyInfo"><KeyValue><RSAKeyValue><Modulus>yJOQ4LhbySxbaAKyuOvTdhIuaavLKBPtvTIg52/x/WWEDaNusPv/Ny6/GfonZ49gbhXP5PavrTm5xBGIyEd8AIiV4SqW5UqvEsDNDIY/pePespam+u2tJMk+he+zvICxAUxw0fAyLIceXnh3Oi/wR9D/yzTN6ijzj7hyOdKobAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><msrel:RelData xmlns:msrel="http://schemas.microsoft.com/windows/rel/2005/reldata"><r:license xmlns:r="urn:mpeg:mpeg21:2003:01-REL-R-NS" xmlns:as="http://schemas.microsoft.com/windows/pki/2005/Authenticode"><r:grant><as:ManifestInformation Hash="7e8761e2617a836a140d483def0246a0a69a9cef" Description="" Url=""><as:assemblyIdentity version="1.0.0.0" name="Project1.exe" publicKeyToken="21510a45d4bd9b17" language="neutral" processorArchitecture="x86" type="win32" /></as:ManifestInformation><as:SignedBy /><as:AuthenticodePublisher><as:X509SubjectName>CN=Zonda-Dell\Daniel</as:X509SubjectName></as:AuthenticodePublisher></r:grant><r:issuer><Signature Id="AuthenticodeSignature" xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1" /><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1" /><DigestValue>HCFp/hkvs2MPcwHyih/d8ZfL2jA=</DigestValue></Reference></SignedInfo><SignatureValue>bb0GuLfrzjfw2ARjsZhc6CNVh6upFWts48Je+I482Xr4vha9M39pCaXszKcFausbN5CeaOU2VP4uWajxS5l3gmFAOOyEb5ivjM3CMWeDzc6iZotpuvdxx+iKRjzMnXQ4mgKazrE3B1ciyqQoRBVewjKCH2AeRmkVyinatZgV2k8=</SignatureValue><KeyInfo><KeyValue><RSAKeyValue><Modulus>yJOQ4LhbySxbaAKyuOvTdhIuaavLKBPtvTIg52/x/WWEDaNusPv/Ny6/GfonZ49gbhXP5PavrTm5xBGIyEd8AIiV4SqW5UqvEsDNDIY/pePespam+u2tJMk+he+zvICxAUxw0fAyLIceXnh3Oi/wR9D/yzTN6ijzj7hyOdKobAc=</Modulus><Exponent>AQAB</Exponent></RSAKeyValue></KeyValue><X509Data><X509Certificate>MIIB3TCCAUagAwIBAgIQFR+KphisUK1KIahz4HDANzANBgkqhkiG9w0BAQUFADAtMSswKQYDVQQDHiIAWgBvAG4AZABhAC0ARABlAGwAbABcAEQAYQBuAGkAZQBsMB4XDTEyMDQwODIyMTg1MloXDTEzMDQwOTA0MTg1MlowLTErMCkGA1UEAx4iAFoAbwBuAGQAYQAtAEQAZQBsAGwAXABEAGEAbgBpAGUAbDCBnzANBgkqhkiG9w0BAQEFAAOBjQAwgYkCgYEAyJOQ4LhbySxbaAKyuOvTdhIuaavLKBPtvTIg52/x/WWEDaNusPv/Ny6/GfonZ49gbhXP5PavrTm5xBGIyEd8AIiV4SqW5UqvEsDNDIY/pePespam+u2tJMk+he+zvICxAUxw0fAyLIceXnh3Oi/wR9D/yzTN6ijzj7hyOdKobAcCAwEAATANBgkqhkiG9w0BAQUFAAOBgQCzWjmuEecRGWDC0m7OJElswtWvgNZdV502Q01K8jCxzekzyP04VXlG62D2fvYOK4jctS7aqGkhZV17lpciCRAHJNQCBgKdISRwRjIqxCZkHauK23M+ogCzTNRswbjtoyeZCyFkTz3hS46w71uRYTxfalnUaS1r/TzEkGH6opX4ow==</X509Certificate></X509Data></KeyInfo></Signature></r:issuer></r:license></msrel:RelData></KeyInfo></Signature></asmv1:assembly>

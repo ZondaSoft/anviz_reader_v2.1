@@ -1,0 +1,17 @@
+C:\biooffice\anviz_reader\bin\boreader.exe
+C:\biooffice\anviz_reader\bin\boreader.xml
+C:\biooffice\anviz_reader\obj\Release\boreader.boreader.resources
+C:\biooffice\anviz_reader\obj\Release\boreader.vbproj.GenerateResource.Cache
+C:\biooffice\anviz_reader\obj\Release\boreader.exe
+C:\biooffice\anviz_reader\obj\Release\boreader.xml
+C:\biooffice\anviz_reader - v2.1 (ok)\bin\boreader.exe.config
+C:\biooffice\anviz_reader - v2.1 (ok)\obj\Release\boreader.exe
+C:\biooffice\anviz_reader - v2.1 (ok)\obj\Release\boreader.xml
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\bin\boreader.exe.config
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\bin\boreader.exe
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\bin\boreader.xml
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\obj\Release\boreader.vbprojAssemblyReference.cache
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\obj\Release\boreader.boreader.resources
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\obj\Release\boreader.vbproj.GenerateResource.cache
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\obj\Release\boreader.exe
+C:\Users\User\source\repos\anviz_reader - v2.1 (ok)\obj\Release\boreader.xml
